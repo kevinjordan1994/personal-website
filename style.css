@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Large Components */
+body {
+  background-color: #f1eee9;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: lowercase;
+  font-size: 1.125rem;
+  letter-spacing: -0.25px;
+  color: #15133c;
+}
+
+.section-separator {
+  border-style: dashed;
+  color: #ec994b;
+  width: 15%;
+  margin: 0 auto;
+  border-width: 4px;
+}
+
+/* Top Container Components */
+.top-container {
+  background-color: #15133c;
+  color: #f1eee9;
+  position: relative;
+}
+
+.top-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: -2px 5px #15133c;
+}
+
+.top-name {
+  font-size: 4.5rem;
+  letter-spacing: -0.75px;
+  margin-bottom: 0;
+}
+
+.top-description {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+  /* color: #ec994b; */
+}
+
+/* Middle Container Components */
+.middle-container {
+  /* background-color: #73777b; */
+  background-color: #f1eee9;
+}
+
+/* .profile-background {
+  background-color: #fff;
+} */
+
+.profile {
+  width: 35%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.profile h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.skills-title {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 35%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.skills-title {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.contact-me {
+  width: 35%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* .skill-text {
+} */
+
+/* .skill-row p {
+  line-height: 2;
+} */
+
+/* Bottom Container Components */
+.bottom-container {
+  background-color: #ec994b;
+}
+
+.links {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a:link {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 1.125rem;
+  letter-spacing: -0.25px;
+  color: #15133c;
+}
+
+.bottom-container p {
+  padding-bottom: 25px;
+}
+
+/* Images */
+.trippy-image {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.computer-img {
+  width: 20%;
+  height: 20%;
+}
+
+.controller-img {
+  width: 20%;
+  height: 20%;
+}
