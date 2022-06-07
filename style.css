@@ -59,6 +59,27 @@ h2 {
   /* color: #ec994b; */
 }
 
+@media (max-width: 1000px) {
+  .top-title {
+    /* transform: translate(-50%, -50%); */
+    position: static;
+    padding-top: 10%;
+  }
+
+  .top-name {
+    font-size: 3rem;
+    letter-spacing: -0.75px;
+    margin-bottom: 0;
+  }
+
+  .top-description {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
+    /* color: #ec994b; */
+  }
+}
+
 /* Middle Container Components */
 .middle-container {
   /* background-color: #73777b; */
@@ -150,8 +171,8 @@ a:link {
 
 /* Images */
 .trippy-image {
-  width: 600px;
-  height: 600px;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   margin: 50px 0;
 }
@@ -164,4 +185,10 @@ a:link {
 .controller-img {
   width: 20%;
   height: 20%;
+}
+
+@media (max-width: 700px) {
+  .trippy-image {
+    width: 12rem;
+  }
 }
