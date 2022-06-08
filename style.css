@@ -142,6 +142,14 @@ h2 {
   line-height: 2;
 } */
 
+@media (max-width: 700px) {
+  .profile,
+  .skill-row,
+  .contact-me {
+    width: 70%;
+  }
+}
+
 /* Bottom Container Components */
 .bottom-container {
   background-color: #ec994b;
